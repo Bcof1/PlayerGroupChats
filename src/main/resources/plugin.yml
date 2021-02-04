@@ -1,0 +1,12 @@
+name: PlayerGroupChats
+version: ${project.version}
+main: me.bcof.playergroupchats.PlayerGroupChats
+api-version: 1.16
+authors: [ Bcof ]
+description: A simple groupchat plugin for your players
+commands:
+  groupchat:
+    description: Create, disband or modify a groupchat
+    aliases: [gc]
+    permission: groupchat.use
+
